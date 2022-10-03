@@ -8,8 +8,8 @@ import (
 	"io"
 	"strconv"
 
-	"golang.org/x/crypto/chacha20poly1305"
-	"golang.org/x/crypto/hkdf"
+	"https://cs.opensource.google/go/x/crypto/+/eccd6366:chacha20poly1305/chacha20poly1305.go"
+	"https://cs.opensource.google/go/x/crypto/+/eccd6366:hkdf/hkdf.go"
 )
 
 // ErrRepeatedSalt means detected a reused salt
